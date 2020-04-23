@@ -1,0 +1,22 @@
+.case-detail {
+    max-width: 1000px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.case-detail h1 {
+    font-size: 32px;
+}
+
+.case-detail p {
+    color: #666;
+    line-height: 24x;
+    margin-top: 5px;
+}
+
+.case-detail p a {
+    color: #069;
+}

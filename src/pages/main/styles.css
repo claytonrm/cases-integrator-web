@@ -1,0 +1,81 @@
+.cases-list {
+    max-width: 1000px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.cases-list table {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-spacing: 0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cases-list table thead tr th {
+    font-size: 16px;
+    color: #1c1e2f;
+    line-height: 20px;
+    width: 250px;
+}
+    
+.cases-list table tbody tr {
+    height: 30px;
+    background: none;
+    color: #000000;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.cases-list table tbody tr a {
+    height: 25px;
+    margin: 10px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0.5px solid #1c1e2f;
+    color: #1c1e2f;
+    font-size: 12px;
+    text-decoration: none;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+}
+
+.cases-list table tbody tr p {
+    text-align: center;
+}
+
+.cases-list table tbody tr:hover {
+    background: #44465e;
+    color: #fff;
+    /* cursor: pointer; */
+    transition: all 0.2s;
+}
+
+.cases-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cases-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #1c1e2f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cases-list .actions button[enabled]:hover {
+    opacity: 0.7;
+}
+
+.cases-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
